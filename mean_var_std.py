@@ -43,8 +43,10 @@ def calculate(_numbers):
 
   calculations = {
     'mean' : [column_mean.tolist(), row_mean.tolist(), matrix_mean],
-    'variance' : [column_variance.tolist(), row_variance.tolist(), matrix_variance],
-    'standard deviation' : [column_standard_deviation.tolist(), row_standard_deviation.tolist(), matrix_standard_deviation],
+    'variance' : [column_variance.tolist(), row_variance.tolist(),
+    matrix_variance],
+    'standard deviation' : [column_standard_deviation.tolist(),
+    row_standard_deviation.tolist(), matrix_standard_deviation],
     'max' : [column_max.tolist(), row_max.tolist(), matrix_max],
     'min' : [column_min.tolist(), row_min.tolist(), matrix_min],
     'sum' : [column_sum.tolist(), row_sum.tolist(), matrix_sum]
